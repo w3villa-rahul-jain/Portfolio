@@ -1,15 +1,16 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter } from 'react-router-dom';
+import MainSection from './Section/MainSection';
 
 function App() {
 
   
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="main-container">
         <Navbar/>
-        <h1>My Portfolio</h1>
+        <MainSection />
       </div>
     </BrowserRouter>
   );

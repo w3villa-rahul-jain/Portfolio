@@ -5,6 +5,25 @@
 }
 
 
+:root{
+  --orange: #ff8500;
+}
+
+
+
+.hire-btn{
+  height: 40px;
+  width: 80px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  background: var(--orange);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+
 li{
   list-style-type: none;
 }
