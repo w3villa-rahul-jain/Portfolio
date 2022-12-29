@@ -1,0 +1,29 @@
+.hero-section{
+    min-height: 90vh;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-section .hero-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 20%;
+    text-transform: uppercase;
+    color: rgb(75, 71, 71);
+}
+
+.hero-section .hero-text h6{
+    font-size: 20px;
+}
+
+.hero-section .hero-text h2{
+    font-size: 50px;
+   
+}
+
+.hero-section .hero-text h2 .user-name{
+    color: var(--orange);
+}
+
