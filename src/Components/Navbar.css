@@ -1,0 +1,44 @@
+:root {
+  --main-color: #2ec4b6;
+  --green: #1e555c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 40px;
+  border-bottom: 0.1px solid var(--main-color);
+}
+
+.nav-logo p {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+.nav-logo p::first-letter {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.navbar .list-itemm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.navbar .list-itemm li .link {
+  padding: 5px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.navbar .list-itemm li .link:hover {
+  border-bottom: 2px solid var(--main-color);
+  border-top: 2px solid var(--main-color);
+  border-radius: 10px;
+}
