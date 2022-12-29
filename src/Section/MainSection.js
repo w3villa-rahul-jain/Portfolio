@@ -17,7 +17,10 @@ const MainSection = () => {
             <p>--{user.role}</p>
             <button className="hire-btn">Hire Me</button>
         </div>
-        <div className="hero-image">Image</div>
+        <div className="hero-image">
+        <div className="blob"></div>
+  
+        </div>
     </div>
   )
 }
